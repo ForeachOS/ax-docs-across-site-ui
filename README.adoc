@@ -1,4 +1,4 @@
-= Antora Default UI
+= Across Documentation - Antora UI
 // Settings:
 :experimental:
 :hide-uri-scheme:
@@ -17,8 +17,6 @@
 :uri-nvm: https://github.com/creationix/nvm
 :uri-nvm-install: {uri-nvm}#installation
 :uri-yarn: https://yarnpkg.com
-
-image:{img-ci-status}[CI Status (GitLab CI), link={uri-ci-pipelines}]
 
 This project is an archetype that demonstrates how to produce a UI bundle for use in a documentation site generated with {uri-antora}[Antora].
 You can see a preview of the default UI at {uri-preview}.
@@ -158,14 +156,3 @@ If you need to package the UI in order to preview the UI on the real site in loc
 
 The UI bundle will be available at [.path]_build/ui-bundle.zip_.
 You can then point Antora at this bundle using the `--ui-bundle` command-line option.
-
-== Copyright and License
-
-Copyright (C) 2017-2018 OpenDevise Inc. and the Antora Project.
-
-Use of this software is granted under the terms of the https://www.mozilla.org/en-US/MPL/2.0/[Mozilla Public License Version 2.0] (MPL-2.0).
-See link:LICENSE[] to find the full license text.
-
-== Authors
-
-Development of Antora is led and sponsored by {uri-opendevise}[OpenDevise Inc].
