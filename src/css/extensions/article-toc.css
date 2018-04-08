@@ -16,19 +16,26 @@
   overflow: hidden;
 }
 
-.doc {
-  float: left;
-  max-width: calc(100% - 22rem);
+.article-aside {
+  display: none;
 }
 
-.article-aside {
-  position: fixed;
-  top: 150px;
-  right: 0;
-  font-size: 13px;
-  border-left: dotted 1px #e1e1e1;
-  padding-left: 1rem;
-  width: 16rem;
+@media screen and (min-width: 1025px) {
+  .article-aside {
+    display: block;
+    position: fixed;
+    top: 150px;
+    right: 0;
+    font-size: 13px;
+    border-left: dotted 1px #e1e1e1;
+    padding-left: 1rem;
+    width: 16rem;
+  }
+
+  .doc {
+    float: left;
+    max-width: calc(100% - 22rem);
+  }
 }
 
 .article-aside h3.toc-title {
