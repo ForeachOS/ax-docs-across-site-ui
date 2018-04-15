@@ -32,6 +32,10 @@
     width: 16rem;
   }
 
+  .article-aside.hidden {
+    display: none;
+  }
+
   .doc {
     float: left;
     max-width: calc(100% - 22rem);
