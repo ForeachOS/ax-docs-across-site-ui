@@ -494,9 +494,15 @@
   margin: 0 0 0.3rem 1.5rem;
 }
 
+.colist td {
+  vertical-align: top;
+}
+
 .doc .conum[data-value] {
   /* border: 1px solid #989898; */
   border: 1px solid #404040;
+  color: white;
+  background-color: rgb(29, 42, 58);
   border-radius: 100%;
   display: inline-block;
   font-family: "Roboto", sans-serif;
@@ -508,6 +514,8 @@
   width: 1.25em;
   letter-spacing: -0.25ex;
   text-indent: -0.25ex;
+  margin-top: 5px;
+  margin-left: 2px;
 }
 
 .doc .conum[data-value]::after {
