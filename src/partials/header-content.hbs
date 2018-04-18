@@ -4,6 +4,7 @@
     <span class="m-mobile-menu__line"></span>
     <span class="m-mobile-menu__line"></span>
   </div>
+
   <div class="m-mobile-menu">
     <div class="m-mobile-menu__logo">
       <a class="m-nav__logo" href="/">
@@ -22,6 +23,7 @@
   </div>
   <div class="m-mobile-menu__container js-mobile-menu-overlay" id="mobile-menu">
     <nav class="m-mobile-menu__list">
+
       <a href="https://across.foreach.be/blog">Blog</a>
       <a href="https://across.foreach.be/documentation" class="is-active">Docs</a>
       <a href="https://across.foreach.be/modules">Modules</a>
@@ -44,6 +46,7 @@
     </a>
 
     <div class="m-nav__link-group">
+      <input id="search-input" type="text" placeholder="Search documentation" autofocus>
       <a href="https://across.foreach.be/blog">Blog</a>
       <a href="https://across.foreach.be/documentation" class="is-active">Docs</a>
       <a href="https://across.foreach.be/modules">Modules</a>
@@ -51,4 +54,13 @@
       <a href="http://start-across.foreach.be">Get started</a>
     </div>
   </nav>
+  <script>
+    docsearch({
+      appId: 'YNK2RERBV5',
+      apiKey: '201d66bbf44a6c62002472e491d74568',
+      indexName: 'antora-across-site',
+      inputSelector: '#search-input',
+      algoliaOptions: { hitsPerPage: 10 }
+    })
+  </script>
 </header>
