@@ -1,8 +1,20 @@
 <div class="navigation-container"{{#if page.component}} data-component="{{page.component.name}}" data-version="{{page.version}}"{{/if}}>
   <aside class="navigation" role="navigation">
     <div class="panels">
-{{> navigation-menu}}
-{{> navigation-explore}}
+      <div id="search-box" class="search-box is-active">
+        <input id="search-input" type="text" placeholder="Search the documentation">
+      </div>
+      {{> navigation-menu}}
+      {{> navigation-explore}}
     </div>
+    <script>
+      docsearch({
+                  appId: 'YNK2RERBV5',
+                  apiKey: '201d66bbf44a6c62002472e491d74568',
+                  indexName: 'antora-across-site',
+                  inputSelector: '#search-input',
+                  algoliaOptions: { hitsPerPage: 10 }
+                })
+    </script>
   </aside>
 </div>

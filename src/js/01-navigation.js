@@ -19,6 +19,11 @@
     var activatePanel = currentPanel.dataset.panel === 'menu' ? 'explore' : 'menu'
     currentPanel.classList.toggle('is-active')
     navContainer.querySelector('[data-panel=' + activatePanel + ']').classList.toggle('is-active')
+    if (activatePanel === 'menu') {
+      navContainer.querySelector('.search-box').classList.add('is-active')
+    } else {
+      navContainer.querySelector('.search-box').classList.remove('is-active')
+    }
   })
 
   find('.nav-toggle', menuPanel).forEach(function (btn) {
