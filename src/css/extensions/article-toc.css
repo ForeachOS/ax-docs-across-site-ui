@@ -38,7 +38,7 @@
 
   .doc {
     float: left;
-    max-width: calc(100% - 22rem);
+    width: calc(100% - 22rem);
   }
 }
 
