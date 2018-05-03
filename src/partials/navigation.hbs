@@ -8,10 +8,11 @@
       {{> navigation-explore}}
     </div>
     <script>
+      var indexName = window.location.href.indexOf('across-site/production/')>0 ? 'antora-across-site-production' : 'antora-across-site-preview';
       docsearch({
                   appId: 'YNK2RERBV5',
                   apiKey: '201d66bbf44a6c62002472e491d74568',
-                  indexName: 'antora-across-site',
+                  indexName: indexName,
                   inputSelector: '#search-input',
                   algoliaOptions: { hitsPerPage: 10 }
                 })
