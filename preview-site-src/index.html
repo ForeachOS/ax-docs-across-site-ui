@@ -8,6 +8,18 @@
         <strong>Prompta eripuit</strong> nec ad.</blockquote>
     </div>
   </div>
+  &nbsp;
+  <div class="sectionbody">
+    <div class="quoteblock abstract">
+      <blockquote><div class="paragraph">
+        <p>You can use <code>@AcrossApplication</code> to execute as a Spring Boot application and use auto-configuration of your application infrastructure.
+          However not all auto-configuration classes are supported in an Across application.</p>
+      </div>
+        <div class="paragraph">
+          <p>This document explains why that is and how developers can provide compatibility adapters for existing configurations.</p>
+        </div></blockquote>
+    </div>
+  </div>
 </div>
 <div class="sect1">
   <h2 id="cu-solet"><a class="anchor" href="#cu-solet"></a>Cu solet</h2>
@@ -18,6 +30,14 @@
         Eum an doctus <a href="#liber-recusabo">maiestatis efficiantur</a>.
         Eu mea inani iriure.</p>
     </div>
+    <blockquote><div class="paragraph">
+      <p>You can use <code>@AcrossApplication</code> to execute as a Spring Boot application and use auto-configuration of your application infrastructure.
+        However not all auto-configuration classes are supported in an Across application.</p>
+    </div>
+      <div class="paragraph">
+        <p>This document explains why that is and how developers can provide compatibility adapters for existing configurations.</p>
+      </div></blockquote>
+  </div>
     <div class="paragraph">
       <div class="title">@ComponentScan on your application configuration</div>
       <p>An example is that bootstrapping will fail if a <code>@ComponentScan</code> is detected on your <code>@AcrossApplication</code> class, where that component scan would conflict with the application module package.

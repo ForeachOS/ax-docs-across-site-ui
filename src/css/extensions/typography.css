@@ -167,3 +167,15 @@ th {
   font-size: 0.95rem;
   padding-bottom: 0.2rem;
 }
+
+blockquote {
+  border-left: 5px solid #ddd;
+  font-size: 0.9em;
+  padding: 0.75em 1em;
+  margin: 1rem 2rem;
+  color: #5d5d5d;
+}
+
+.doc blockquote > .paragraph:first-child {
+  margin-top: 0;
+}
