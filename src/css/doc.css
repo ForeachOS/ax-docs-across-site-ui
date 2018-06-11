@@ -587,3 +587,9 @@ kbd,
   content: ">";
   font-weight: 500;
 }
+
+.doc p,
+.doc .tableblock,
+.doc .content {
+  hyphens: none;
+}
