@@ -18,6 +18,8 @@
 
 .article-aside {
   display: none;
+  max-height: calc(100% - 14rem);
+  overflow-y: auto;
 }
 
 @media screen and (min-width: 1025px) {
@@ -90,4 +92,8 @@
 #article-toc > .toc-list > .toc-list-item > .toc-link.is-active-link:first-child {
   font-weight: normal;
   color: #999;
+}
+
+.is-collapsed {
+  display: none;
 }
