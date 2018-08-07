@@ -89,7 +89,7 @@
   color: #666;
 }
 
-#article-toc > .toc-list > .toc-list-item > .toc-link.is-active-link:first-child {
+#article-toc:not(.is-position-fixed) > .toc-list > .toc-list-item > .toc-link.is-active-link:first-child {
   font-weight: normal;
   color: #999;
 }
