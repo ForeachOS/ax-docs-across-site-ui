@@ -60,6 +60,12 @@ page:
   module: ROOT
   home: false
   editUrl: http://example.com/project-xyz/blob/master/index.adoc
+  next:
+    url: ""
+    content: "Next page"
+  previous:
+    url: ""
+    content: "Previous page"
   origin:
     private: false
   breadcrumbs:

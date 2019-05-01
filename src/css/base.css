@@ -3,6 +3,9 @@
   --color-navbar-bg: #1d2a3a;
   --color-navbar-bg-focus: #1d2a3a;
   --color-navbar-text: #fff;
+  --color-border: #ddd;
+  --weight-bold: 600;
+  --color-brand-white: white;
 }
 
 html,
@@ -24,11 +27,13 @@ html {
   font-family: "open sans", sans-serif;
 }
 
+/*
 @media screen and (min-width: 1024px) {
   html {
     font-size: 1.2em;
   }
 }
+*/
 
 body {
   color: var(--color-text);

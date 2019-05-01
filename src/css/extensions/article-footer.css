@@ -1,0 +1,30 @@
+.article-footer-nav {
+  margin-top: 30px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.article-footer-nav-current {
+  padding: 10px;
+  display: inline-block;
+}
+.article-footer-nav > a {
+  border: solid 1px #ddd;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.article-footer-nav > a:hover {
+  text-decoration: none;
+  background-color: whitesmoke;
+}
+
+.article-footer-nav-previous {
+  float: left;
+  color: #222;
+}
+
+.article-footer-nav-next {
+  float: right;
+  color: #222;
+}
