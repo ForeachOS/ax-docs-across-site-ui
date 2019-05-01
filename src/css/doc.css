@@ -4,14 +4,14 @@
   color: #333;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .doc {
     margin: 0 1rem;
     width: 100%;
   }
 }
 
-@media (min-width: 1025px) {
+@media screen and (min-width: 1025px) {
   .doc {
     margin: 0 3rem;
     width: 100%;
@@ -279,7 +279,9 @@
   border-bottom: 1px solid #ddd;
   margin-left: -1rem;
   margin-right: -1rem;
-  padding: 0.4rem 1rem 0.1rem;
+  padding-right: 1rem;
+  padding-bottom: 0.1rem;
+  padding-left: 1rem;
 }
 
 .doc p {

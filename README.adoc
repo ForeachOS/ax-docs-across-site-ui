@@ -161,3 +161,12 @@ If you have the preview running, and you want to bundle without causing the prev
  $ gulp bundle:pack
 
 The UI bundle will again be available at [.path]_build/ui-bundle.zip_.
+
+=== Merging the upstream Antora UI into this project
+
+Our Github repository contains customizations for the Foreach CSS templates.
+To merge the upstream Antora UI commits into this project, use the following commands:
+
+ $ git remote add upstream https://gitlab.com/antora/antora-ui-default.git
+ $ git fetch upstream
+ $ git pull upstream master
