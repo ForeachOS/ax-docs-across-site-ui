@@ -24,6 +24,12 @@ html {
   font-family: "open sans", sans-serif;
 }
 
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 1.2em;
+  }
+}
+
 body {
   color: var(--color-text);
   margin: 0;
